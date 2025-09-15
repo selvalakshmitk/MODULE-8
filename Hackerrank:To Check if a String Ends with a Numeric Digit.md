@@ -23,8 +23,76 @@ To write a Python program that checks if a given string ends with a number using
 ---
 
 ## 💻  Program
-Add Code here
+s = input()
+
+c,c1,c2,c3,c4=0,0,0,0,0
+
+for i in range(len(s)):
+
+    if s[i].isalnum():
+    
+        c+=1
+    
+    if s[i].isalpha():
+    
+        c1+=1
+    
+    if s[i].isdigit():
+    
+        c2+=1
+    
+    if s[i].islower():
+      
+        c3+=1
+   
+    if s[i].isupper():
+     
+        c4+=1
+
+if c>=1:
+    
+    print('True')
+
+else:
+  
+    print('False')
+
+if c1>=1:
+  
+    print('True')
+
+else:
+   
+    print('False')
+
+if c2>=1:
+   
+    print('True')
+
+else:
+   
+    print('False')
+
+if c3>=1:
+   
+    print('True')
+
+else:
+  
+    print('False')
+
+if c4>=1:
+  
+    print('True')
+
+else:
+   
+    print('False')
+
 
 ## Output
+<img width="821" height="297" alt="image" src="https://github.com/user-attachments/assets/cfca6c8e-b912-46ff-accf-9b92de7f6bfa" />
+
 
 ## Result
+Thus the program is excuted and verified.
