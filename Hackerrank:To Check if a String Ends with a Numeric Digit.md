@@ -1,4 +1,4 @@
-# 🔍 Hackerrank:Python Program to Check if a String Ends with a Numeric Digit
+![WhatsApp Image 2025-09-15 at 14 24 03_a6205174](https://github.com/user-attachments/assets/8539781c-60a8-48c3-98fc-5dd58b6cb371)# 🔍 Hackerrank:Python Program to Check if a String Ends with a Numeric Digit
 
 This Python program checks whether the last character of a given input string is a **numeric digit (0–9)**.
 
@@ -23,8 +23,64 @@ To write a Python program that checks if a given string ends with a number using
 ---
 
 ## 💻  Program
-Add Code here
+s = input()
+
+c,c1,c2,c3,c4=0,0,0,0,0
+
+for i in range(len(s)):
+
+if s[i].isalnum():
+
+    c+=1
+
+if s[i].isalpha():
+
+    c1+=1
+
+if s[i].isdigit():
+
+    c2+=1
+
+if s[i].islower():
+  
+    c3+=1
+
+if s[i].isupper():
+ 
+    c4+=1
+if c>=1:
+
+print('True')
+else:
+
+print('False')
+if c1>=1:
+
+print('True')
+else:
+
+print('False')
+if c2>=1:
+
+print('True')
+else:
+
+print('False')
+if c3>=1:
+
+print('True')
+else:
+
+print('False')
+if c4>=1:
+
+print('True')
+else:
+
+print('False')
 
 ## Output
+![WhatsApp Image 2025-09-15 at 14 24 03_56086763](https://github.com/user-attachments/assets/da7de7b9-e795-4dad-98e8-ae4bc7b88864)
 
 ## Result
+Thus the program is excuted and verified
